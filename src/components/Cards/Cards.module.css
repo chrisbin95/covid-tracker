@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 55px 0;
+  width: 90%;
+  height: fit-content;
+}
+
+.infected {
+  border-bottom: 20px solid rgba(0, 0, 255, 0.747);
+  background: linear-gradient(rgb(95, 111, 255),rgb(17, 25, 80));
+  opacity: 0.9;
+}
+
+.recovered {
+  border-bottom: 20px solid rgba(0, 255, 0, 0.692);
+  background: linear-gradient(rgb(121, 253, 172),rgb(36, 73, 50));
+  opacity: 0.9;
+}
+
+.deaths {
+  border-bottom: 20px solid rgba(255, 0, 0, 0.767);
+  background: linear-gradient(rgb(255, 152, 152),rgb(73, 43, 43));
+  opacity: 0.9;
+}
+.infected:hover
+{
+  background: radial-gradient(circle, rgb(119, 133, 255),rgb(70, 116, 196));
+  opacity: 0.95;
+  transform: scale(1.05);
+  transition: ease-in 0.1s;
+  box-shadow: 4px 4px 3px #000000af;
+}
+.recovered:hover
+{
+  background: radial-gradient(circle, rgb(121, 253, 172),rgb(70, 236, 113));
+  opacity: 0.95;
+  transform: scale(1.05);
+  transition: ease-in 0.1s;
+  box-shadow: 4px 4px 3px #000000af;
+}
+.deaths:hover
+{
+  background: radial-gradient(circle, rgb(255, 152, 152),rgb(255, 128, 128));
+  opacity: 0.95;
+  transform: scale(1.05);
+  transition: ease-in 0.1s;
+  box-shadow: 4px 4px 3px #000000af;
+}

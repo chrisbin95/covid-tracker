@@ -1,0 +1,27 @@
+.container {
+  background-image: linear-gradient(rgb(175, 175, 175),rgb(197, 197, 197));
+  border-radius: 3px;
+  display: block;
+  justify-content: center;
+  width: 65%;
+  height: auto;
+}
+.container:hover
+{
+  background-image: linear-gradient(rgb(255, 255, 255),rgb(192, 192, 192));
+}
+
+@media (max-width: 770px) {
+  .container {
+    width: 100%;
+    height: auto;
+  }
+  .container:hover {
+    transform: scale(1.1);
+    transition: ease-in 0.3s;
+  }
+  .container:not(:hover) {
+    transform: none;
+    transition: ease-in 0.4s;
+  }
+}

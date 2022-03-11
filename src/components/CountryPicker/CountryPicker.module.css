@@ -1,0 +1,18 @@
+.formControl {
+  background-color: rgb(187, 197, 230);
+  border-radius: 3px;
+  width: auto;
+  margin-top: 11px !important;
+  margin-bottom: -15px !important;
+}
+
+.formControl:hover
+{
+  opacity: 0.9;
+
+}
+.formControl:active
+{
+  background-image: linear-gradient( #5567e9 5%, transparent 5%);
+}
+
